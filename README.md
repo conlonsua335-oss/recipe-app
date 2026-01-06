@@ -1,6 +1,6 @@
-# 🍳 Ứng Dụng Web Công Thức Nấu Ăn Đơn Giản (Simple Cooking Recipe Web Application)
+#  Ứng Dụng Web Công Thức Nấu Ăn Đơn Giản (Simple Cooking Recipe Web Application)
 
-## 📌 Tổng Quan Dự Án
+##  Tổng Quan Dự Án
 
 Đây là một ứng dụng web đơn giản giúp người dùng **tìm kiếm và xem công thức nấu ăn**. Người dùng có thể:
 
@@ -13,17 +13,15 @@ Dự án được xây dựng với mục tiêu thể hiện khả năng sử d�
 
 ---
 
-## 🛠️ Công Nghệ Sử Dụng
+##  Demo và Source Code
 
-* **React** – Xây dựng giao diện người dùng
-* **Vite** – Công cụ build nhanh và nhẹ
-* **Tailwind CSS** – Styling UI
-* **React Router DOM** – Điều hướng giữa các trang
-* **Deployment**: Vercel
+* Live demo(vercel): https://vercel.com/conlonsua335-oss-projects/recipe-app
+* GitHub repository: https://github.com/conlonsua335-oss/recipe-app/tree/main
+
 
 ---
 
-## ✨ Tính Năng Chính
+##  Tính Năng Chính
 
 *  Tìm kiếm công thức theo tên món ăn
 *  Lọc theo nguyên liệu (ingredients)
@@ -34,10 +32,19 @@ Dự án được xây dựng với mục tiêu thể hiện khả năng sử d�
   * Danh sách nguyên liệu
   * Hướng dẫn nấu từng bước
 
+##  Công nghệ sử dụng
+* React (Vite)
 
+* React Router DOM
+
+* TailwindCSS
+
+* HTML5 / CSS3 / JavaScript (ES6+)
+
+* Deployment: Vercel
 ---
 
-## 📂 Cấu Trúc Thư Mục
+##  Cấu Trúc Thư Mục
 
 ```
 src/
@@ -57,36 +64,42 @@ src/
 
 ---
 
-## 🧠 Logic Tìm Kiếm & Lọc
+##  Logic Tìm Kiếm & Lọc
 
-### 1️⃣ Tìm kiếm theo tên
+###  Tìm kiếm theo tên
 
 * Người dùng nhập từ khóa
 * So sánh với `recipe.title` (không phân biệt hoa thường)
 
-### 2️⃣ Lọc theo cuisine
+###  Lọc theo cuisine
 
 * Dropdown hiển thị các vùng ẩm thực duy nhất
 * Chỉ hiển thị công thức thuộc cuisine đã chọn
 
-### 3️⃣ Lọc theo ingredients
+###  Lọc theo ingredients
 
 * Người dùng nhập nguyên liệu (ví dụ: `egg`, `rice`)
 * Kiểm tra xem nguyên liệu có tồn tại trong mảng `ingredients` của công thức hay không
 
-➡️ Kết quả cuối cùng là **tập giao các điều kiện** trên
+ Kết quả cuối cùng là **tập giao các điều kiện** trên
 
 ---
 
-## ▶️ Cách Chạy Dự Án
+##  Cách cài đặt và chạy project
 
-### 1. Cài đặt dependencies
+### Clone repository
+``` bash
+git clone https://vercel.com/conlonsua335-oss-projects/recipe-app
+cd recipe--app
+```
+
+### Cài đặt dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Chạy môi trường development
+### Chạy môi trường development
 
 ```bash
 npm run dev
@@ -99,7 +112,7 @@ http://localhost:5173
 ```
 
 ---
-## 🎯 Mục tiêu của project
+##  Mục tiêu của project
 
 * Project này được thực hiện nhằm:
 
@@ -111,7 +124,15 @@ http://localhost:5173
 
 * Hoàn thành đúng yêu cầu của một Frontend coding test
 
-## 👤 Tác Giả
+##  Ghi chú
+
+* Dữ liệu công thức hiện tại được mock trong file src/data/recipes.js
+
+* Kiến trúc component được thiết kế để dễ mở rộng (API, pagination, favorite recipes, v.v.)
+
+* UI tập trung vào đơn giản, rõ ràng, dễ sử dụng
+
+##  Tác Giả
 
 **Tuan Anh**
 Frontend Developer 
