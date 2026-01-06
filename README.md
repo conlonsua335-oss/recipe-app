@@ -13,7 +13,7 @@ Một ứng dụng web nấu ăn đơn giản, đầy đủ chức năng, đư�
 - JavaScript
 
 ## Hình ảnh demo
-![Ảnh demo ứng dụng]![alt text](image.png)
+[alt text](image.png)
 
 ## Repository GitHub
 Code frontend: https://github.com/conlonsua335-oss/recipe-app
