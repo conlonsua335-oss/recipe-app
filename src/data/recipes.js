@@ -3,7 +3,7 @@ const recipes = [
     id: 1,
     title: "Spaghetti Carbonara",
     cuisine: "Italian",
-    ingredients: ["Spaghetti", "Eggs", "Pancetta", "Parmesan"],
+    ingredients: ["spaghetti", "eggs", "pancetta", "parmesan"],
     instructions: [
       "Boil spaghetti",
       "Fry pancetta",
@@ -17,7 +17,7 @@ const recipes = [
     id: 2,
     title: "Chicken Fried Rice",
     cuisine: "Asian",
-    ingredients: ["Rice", "Chicken", "Egg", "Soy sauce"],
+    ingredients: ["rice", "chicken", "egg", "soy sauce"],
     instructions: [
       "Cook rice",
       "Fry chicken",
